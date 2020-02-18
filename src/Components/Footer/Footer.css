@@ -1,0 +1,77 @@
+#circle-container{
+    align-items: center;
+    display: flex;
+    height: 29vh;
+    justify-content: center;
+    position: relative;
+    width: 99,5vw;
+}
+
+.circle {
+	width: 20vh;
+	height: 20vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+#one:before {
+	content: "MADE BY: LOLI";
+}
+
+#one {
+    background-color: rgba(248, 55, 174, 0.45);
+    font-size: 10px;
+    font-family:  'Roboto Mono', monospace;
+	letter-spacing: 1.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	transition: 1s;
+}
+
+#two {
+	background-color: purple;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#three {
+	background-color: red;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#four {
+	background-color: orange;
+	transition: 1s;
+	opacity: 0.5;
+}
+#five {
+	background-color: green;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+#cc {
+	position:relative;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#cc:hover #two {
+	transform: translate(0px, 75px);
+}
+#cc:hover #three {
+	transform: translate(0px, -75px);
+}
+#cc:hover #four {
+	transform: translate(75px, 0px);
+}
+#cc:hover #five {
+	transform: translate(-75px, 0px);
+}
+

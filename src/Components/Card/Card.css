@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body{
+    background-image: url(fondo4.jpg);
+    background-size: cover;
+}
+
+h2, h1{
+    font-family:  'Roboto Mono', monospace;;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+}
+
+.card{
+    background-size:cover;
+    background-position: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px #666;
+    width: 325px;
+    height: 560px;
+    margin: 70px 25px;
+    top:10px;
+    position: relative;
+    transition: ease-in-out 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-article{
+    background-color:#FFFFFF;
+    border-radius:10px;
+    height: 175px;
+    margin-left: 23px;
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    width: 285px;
+    bottom: 3px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.card-article:hover{
+    background-color: lightcoral;
+    height: 500px;
+    opacity: 1;
+}
+
+h2{
+    margin-left:10px;
+    margin-bottom: 1px;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-right: 30px;
+}
+
+.fa-arrow-down{
+    cursor: pointer;
+    position: relative;
+    left: 285px;
+    top:535px;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-arrow-down:hover{
+    transform: scale(1.7);
+}
